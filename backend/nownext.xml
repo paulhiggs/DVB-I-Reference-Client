@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dvbischema [
+<!ENTITY LocalDVBIServer 'http://paulhiggs.ddns.net:8100'>
+]>
 <TVAMain xmlns="urn:tva:metadata:2019"
  xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="eng">
@@ -22,7 +25,7 @@
  <RelatedMaterial>
  <HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2012:19"/>
  <MediaLocator>
- <MediaUri contentType="image/png">http://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/nownext.png</MediaUri>
+ <MediaUri contentType="image/png">&LocalDVBIServer;/backend/nownext.png</MediaUri>
  </MediaLocator>
  </RelatedMaterial>
  </BasicDescription>
@@ -42,7 +45,7 @@
  <RelatedMaterial>
  <HowRelated href="urn:tva:metadata:cs:HowRelatedCS:2012:19"/>
  <MediaLocator>
- <MediaUri contentType="image/png">http://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/nownext.png</MediaUri>
+ <MediaUri contentType="image/png">&LocalDVBIServer;/backend/nownext.png</MediaUri>
  </MediaLocator>
  </RelatedMaterial>
  </BasicDescription>

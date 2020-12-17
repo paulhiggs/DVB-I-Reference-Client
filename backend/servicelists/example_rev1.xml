@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dvbischema [
+<!ENTITY LocalDVBIServer 'http://paulhiggs.ddns.net:8100'>
+]>
 <ServiceList xmlns="urn:dvb:metadata:servicediscovery:2020" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:tva="urn:tva:metadata:2019" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="45" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2020 dvbi_v2.0.xsd">
   <Name>DVB-I Reference app rev.1 example</Name>
   <ProviderName>DVB</ProviderName>
@@ -11,13 +14,13 @@
   <ContentGuideSource CGSID="cgid-1">
     <ProviderName>DVB-I Reference Application</ProviderName>
     <ScheduleInfoEndpoint contentType="application/xml">
-      <URI>https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/schedule.php</URI>
+      <URI>&LocalDVBIServer;/backend/schedule.php</URI>
     </ScheduleInfoEndpoint>
     <MoreEpisodesEndpoint contentType="application/xml">
-      <URI>https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/more_episodes.php</URI>
+      <URI>&LocalDVBIServer;/backend/more_episodes.php</URI>
     </MoreEpisodesEndpoint>
     <ProgramInfoEndpoint contentType="application/xml">
-      <URI>https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/program_information.php</URI>
+      <URI>&LocalDVBIServer;/backend/program_information.php</URI>
     </ProgramInfoEndpoint>
   </ContentGuideSource>
   <Service version="1">
@@ -40,7 +43,7 @@
     <RelatedMaterial>
       <HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1000.1"></HowRelated>
       <MediaLocator>
-        <tva:MediaUri contentType="image/jpg">https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/channel_icons/outofservice_example.png</tva:MediaUri>
+        <tva:MediaUri contentType="image/jpg">&LocalDVBIServer;/backend/channel_icons/outofservice_example.png</tva:MediaUri>
       </MediaLocator>
     </RelatedMaterial>
     <ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"></ServiceType>

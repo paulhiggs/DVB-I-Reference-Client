@@ -1,4 +1,5 @@
-var PROVIDER_LIST = "https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/servicelist_registry.php";
+//var PROVIDER_LIST = "https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/servicelist_registry.php";
+var PROVIDER_LIST = "http://paulhiggs.ddns.net:8100/backend/servicelist_registry.php";
 
 function parseServiceList(data,dvbChannels,supportedDrmSystems) {
     var serviceList = {}

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dvbischema [
+<!ENTITY LocalDVBIServer 'http://paulhiggs.ddns.net:8100'>
+]>
 <sld:ServiceListEntryPoints xmlns:sld="urn:dvb:metadata:servicelistdiscovery:2019" xmlns:dvbisd="urn:dvb:metadata:servicediscovery:2019" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dvb:metadata:servicelistdiscovery:2019 dvbi_service_list_discovery_v1.0.xsd">
 	<sld:ServiceListRegistryEntity regulatorFlag="false">
 		<mpeg7:Icon>
@@ -71,25 +74,25 @@
 		<sld:ServiceListOffering regulatorListFlag="false">
 		<sld:ServiceListName>DVB-I Reference Client service list</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>https://raw.githubusercontent.com/DVBproject/DVB-I-Reference-Client/master/backend/servicelists/example.xml</dvbisd:URI>
+				<dvbisd:URI>&LocalDVBIServer;/backend/servicelists/example.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
     <sld:ServiceListOffering regulatorListFlag="false">
     <sld:ServiceListName>DVB-I Reference Client rev.1 service list</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>https://raw.githubusercontent.com/DVBproject/DVB-I-Reference-Client/master/backend/servicelists/example_rev1.xml</dvbisd:URI>
+				<dvbisd:URI>&LocalDVBIServer;/backend/servicelists/example_rev1.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
 		<sld:ServiceListOffering regulatorListFlag="false">
 		<sld:ServiceListName>DVB-I Reference Client DRM service list</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>https://raw.githubusercontent.com/DVBproject/DVB-I-Reference-Client/master/backend/servicelists/drm.xml</dvbisd:URI>
+				<dvbisd:URI>&LocalDVBIServer;/backend/servicelists/drm.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
     <sld:ServiceListOffering regulatorListFlag="false">
 		<sld:ServiceListName>DVB-DASH Reference Streams</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>https://raw.githubusercontent.com/DVBproject/DVB-I-Reference-Client/master/backend/servicelists/TM-STREAM0075r1 DVB-DASH_Reference_Streams.xml</dvbisd:URI>
+				<dvbisd:URI>&LocalDVBIServer;/backend/servicelists/TM-STREAM0075r1 DVB-DASH_Reference_Streams.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
 	</sld:ProviderOffering>

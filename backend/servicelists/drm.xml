@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dvbischema [
+<!ENTITY LocalDVBIServer 'http://paulhiggs.ddns.net:8100'>
+]>
 <ServiceList xmlns="urn:dvb:metadata:servicediscovery:2019" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tva="urn:tva:metadata:2019" version="1" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2019 ../dvbi_v1.0.xsd">
   <Name>DVB-I DRM Service list</Name>
   <ProviderName>DVB</ProviderName>
@@ -10,7 +13,7 @@
   <ContentGuideSource CGSID="cgid-1">
     <ProviderName>DVB-I Reference Application</ProviderName>
     <ScheduleInfoEndpoint contentType="application/xml">
-      <URI>https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/backend/schedule.php</URI>
+      <URI>&LocalDVBIServer;/backend/schedule.php</URI>
     </ScheduleInfoEndpoint>
   </ContentGuideSource>
   <Service version="1">
@@ -37,7 +40,7 @@
      <RelatedMaterial>
       <tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
       <tva:MediaLocator>
-        <tva:MediaUri contentType="application/xhtml+xml">https://stage.sofiadigital.fi/dvb/dvb-i-reference-application/linked_applications/android_drm_widevine.html</tva:MediaUri>
+        <tva:MediaUri contentType="application/xhtml+xml">&LocalDVBIServer;/linked_applications/android_drm_widevine.html</tva:MediaUri>
       </tva:MediaLocator>
     </RelatedMaterial>
       <ContentProtection>
@@ -61,7 +64,7 @@
       <RelatedMaterial>
       <tva:HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.2"/>
       <tva:MediaLocator>
-        <tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://devel.sofiadigital.fi/home/tsa/dvb-i-reference-application/linked_applications/hbbtv_playready_aitx.php</tva:MediaUri>
+        <tva:MediaUri contentType="application/vnd.dvb.ait+xml">&LocalDVBIServer;/linked_applications/hbbtv_playready_aitx.php</tva:MediaUri>
       </tva:MediaLocator>
      </RelatedMaterial>
       <ContentProtection>
