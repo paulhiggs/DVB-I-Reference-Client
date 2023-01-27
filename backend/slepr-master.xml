@@ -2,58 +2,25 @@
 <sld:ServiceListEntryPoints xmlns:sld="urn:dvb:metadata:servicelistdiscovery:2019" xmlns:dvbisd="urn:dvb:metadata:servicediscovery:2019" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dvb:metadata:servicelistdiscovery:2019 dvbi_service_list_discovery_v1.0.xsd">
 	<sld:ServiceListRegistryEntity regulatorFlag="false">
 		<mpeg7:Icon>
-			<mpeg7:MediaUri>http://dvb.org/img/f/dvb-logo.png</mpeg7:MediaUri>
+			<mpeg7:MediaUri>https://www-file.huawei.com/-/media/corporate/images/home/logo/huawei_logo.png</mpeg7:MediaUri>
 		</mpeg7:Icon>
-		<sld:Name type="main" xml:lang="en">DVB</sld:Name>
+		<sld:Name type="main" xml:lang="en">Huawei</sld:Name>
 		<sld:ContactName>
-			<mpeg7:GivenName>Andy</mpeg7:GivenName>
-			<mpeg7:FamilyName>Anderson</mpeg7:FamilyName>
+			<mpeg7:GivenName>Paul</mpeg7:GivenName>
+			<mpeg7:FamilyName>Higgs</mpeg7:FamilyName>
 		</sld:ContactName>
 		<sld:Address>
 			<mpeg7:PostalAddress>
-				<mpeg7:AddressLine>EBU L'Ancienne Route 17A</mpeg7:AddressLine>
-				<mpeg7:AddressLine>CH-1218 Grand-Saconnex/Geneva</mpeg7:AddressLine>
-				<mpeg7:AddressLine>Switzerland</mpeg7:AddressLine>
+				<mpeg7:AddressLine>Huawei Technologies (UK) Ltd</mpeg7:AddressLine>
+				<mpeg7:AddressLine>300 South Oak Way, Reading, RG2 6AD</mpeg7:AddressLine>
+				<mpeg7:AddressLine>United Kingdom</mpeg7:AddressLine>
 			</mpeg7:PostalAddress>
 		</sld:Address>
 		<sld:ElectronicAddress>
-			<mpeg7:Telephone>+41 22 7100000</mpeg7:Telephone>
-			<mpeg7:Email>dvb@dvb.org</mpeg7:Email>
+			<mpeg7:Telephone>+44 118 920 8000</mpeg7:Telephone>
+			<mpeg7:Email>info@huawei.com</mpeg7:Email>
 		</sld:ElectronicAddress>
 	</sld:ServiceListRegistryEntity>
-	<sld:ProviderOffering>
-		<sld:Provider>
-			<sld:Name>SES</sld:Name>
-			<sld:Address>
-				<mpeg7:Name>Jan</mpeg7:Name>
-				<mpeg7:PostalAddress>
-					<mpeg7:AddressLine>Luxembourg</mpeg7:AddressLine>
-				</mpeg7:PostalAddress>
-			</sld:Address>
-			<sld:ElectronicAddress>
-				<mpeg7:Telephone>+352 00000000</mpeg7:Telephone>
-				<mpeg7:Email>dvb-i@ses.com</mpeg7:Email>
-			</sld:ElectronicAddress>
-		</sld:Provider>
-		<sld:ServiceListOffering>
-			<sld:ServiceListName>ASTRA 19.2 E</sld:ServiceListName>
-			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>
-					https://www.satip.info/sites/satip/files/files/ASTRA_19_2_E.xml
-				</dvbisd:URI>
-			</sld:ServiceListURI>
-			<sld:TargetCountry>DEU</sld:TargetCountry>
-		</sld:ServiceListOffering>
-    <sld:ServiceListOffering>
-			<sld:ServiceListName>ASTRA 28.2 E</sld:ServiceListName>
-			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>
-					https://www.satip.info/sites/satip/files/files/ASTRA_28_2_E.xml
-				</dvbisd:URI>
-			</sld:ServiceListURI>
-			<sld:TargetCountry>GBR</sld:TargetCountry>
-		</sld:ServiceListOffering>
-	</sld:ProviderOffering>
 	<sld:ProviderOffering>
 		<sld:Provider>
 			<sld:Name>DVB</sld:Name>
@@ -69,34 +36,24 @@
 			</sld:ElectronicAddress>
 		</sld:Provider>
 		<sld:ServiceListOffering regulatorListFlag="false">
-		<sld:ServiceListName>DVB-I Reference Client service list</sld:ServiceListName>
-		<sld:ServiceListName xml:lang="zh">DVB-I 参考客户端服务列表</sld:ServiceListName>
+		<sld:ServiceListName>DVB-I Test Services</sld:ServiceListName>
+		<sld:ServiceListName xml:lang="zh">DVB-I 试验服务</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=example.xml</dvbisd:URI>
+				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=tests.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
-    <sld:ServiceListOffering regulatorListFlag="false">
-    <sld:ServiceListName>DVB-I Reference Client rev.1 service list</sld:ServiceListName>
-			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=example_rev1.xml</dvbisd:URI>
-			</sld:ServiceListURI>
-		</sld:ServiceListOffering>
+	</sld:ProviderOffering>
+	<sld:ProviderOffering>
+		<sld:Provider>
+			<sld:Name>BMT</sld:Name>
+			<sld:Address>
+				<mpeg7:Name>BMT</mpeg7:Name>
+			</sld:Address>
+		</sld:Provider>
 		<sld:ServiceListOffering regulatorListFlag="false">
-		<sld:ServiceListName>DVB-I Reference Client DRM service list</sld:ServiceListName>
+		<sld:ServiceListName>bmt Service Liste Lokal TV</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=drm.xml</dvbisd:URI>
-			</sld:ServiceListURI>
-		</sld:ServiceListOffering>
-    <sld:ServiceListOffering regulatorListFlag="false">
-		  <sld:ServiceListName>DVB-DASH Reference Streams</sld:ServiceListName>
-			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=TM-STREAM0075r1 DVB-DASH_Reference_Streams.xml</dvbisd:URI>
-			</sld:ServiceListURI>
-		</sld:ServiceListOffering>
-    <sld:ServiceListOffering regulatorListFlag="false">
-		  <sld:ServiceListName>Next generation codecs service list</sld:ServiceListName>
-			<sld:ServiceListURI contentType="application/xml">
-				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=advanced_codecs.xml</dvbisd:URI>
+				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=bmt_plugfest_2020.xml</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
 	</sld:ProviderOffering>

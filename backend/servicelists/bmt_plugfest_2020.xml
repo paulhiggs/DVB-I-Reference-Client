@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- (c) copyright BMT 2022 -->
+<!-- This service list contains the broadcast services distributed by Bayerische Medien Technik GmbH for BLM -->
+<ServiceList version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tva="urn:tva:metadata:2019" xsi:schemaLocation="urn:dvb:metadata:servicediscovery:2020 ../dvbi_v2.0.xsd" xmlns="urn:dvb:metadata:servicediscovery:2020">
+	<Name>bmt Service Liste Lokal TV</Name>
+	<ProviderName>bmt</ProviderName>
+	<RelatedMaterial>
+		<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.1"/>
+		<MediaLocator>
+			<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/bmt_logo_220_x250.png</tva:MediaUri>
+		</MediaLocator>
+	</RelatedMaterial>
+	<RegionList version="1">
+		<Region regionID="München">
+			<RegionName>München</RegionName>
+			<Postcode>80331</Postcode>
+			<Postcode>80333</Postcode>
+			<Postcode>80335</Postcode>
+			<Postcode>80336</Postcode>
+			<Postcode>80337</Postcode>
+			<Postcode>80339</Postcode>
+			<Postcode>80469</Postcode>
+			<Postcode>80538</Postcode>
+			<Postcode>80539</Postcode>
+			<Postcode>80634</Postcode>
+			<Postcode>80636</Postcode>
+			<Postcode>80637</Postcode>
+			<Postcode>80638</Postcode>
+			<Postcode>80639</Postcode>
+			<Postcode>80686</Postcode>
+			<Postcode>80687</Postcode>
+			<Postcode>80689</Postcode>
+			<Postcode>80796</Postcode>
+			<Postcode>80797</Postcode>
+			<Postcode>80798</Postcode>
+			<Postcode>80799</Postcode>
+			<Postcode>80801</Postcode>
+			<Postcode>80802</Postcode>
+			<Postcode>80803</Postcode>
+			<Postcode>80804</Postcode>
+			<Postcode>80805</Postcode>
+			<Postcode>80807</Postcode>
+			<Postcode>80809</Postcode>
+			<Postcode>80933</Postcode>
+			<Postcode>80935</Postcode>
+			<Postcode>80937</Postcode>
+			<Postcode>80939</Postcode>
+			<Postcode>80992</Postcode>
+			<Postcode>80993</Postcode>
+			<Postcode>80995</Postcode>
+			<Postcode>80997</Postcode>
+			<Postcode>80999</Postcode>
+			<Postcode>81241</Postcode>
+			<Postcode>81243</Postcode>
+			<Postcode>81245</Postcode>
+			<Postcode>81247</Postcode>
+			<Postcode>81249</Postcode>
+			<Postcode>81369</Postcode>
+			<Postcode>81371</Postcode>
+			<Postcode>81373</Postcode>
+			<Postcode>81375</Postcode>
+			<Postcode>81377</Postcode>
+			<Postcode>81379</Postcode>
+			<Postcode>81475</Postcode>
+			<Postcode>81476</Postcode>
+			<Postcode>81477</Postcode>
+			<Postcode>81479</Postcode>
+			<Postcode>81539</Postcode>
+			<Postcode>81541</Postcode>
+			<Postcode>81543</Postcode>
+			<Postcode>81545</Postcode>
+			<Postcode>81547</Postcode>
+			<Postcode>81549</Postcode>
+			<Postcode>81667</Postcode>
+			<Postcode>81669</Postcode>
+			<Postcode>81671</Postcode>
+			<Postcode>81673</Postcode>
+			<Postcode>81675</Postcode>
+			<Postcode>81677</Postcode>
+			<Postcode>81679</Postcode>
+			<Postcode>81735</Postcode>
+			<Postcode>81737</Postcode>
+			<Postcode>81739</Postcode>
+			<Postcode>81825</Postcode>
+			<Postcode>81827</Postcode>
+			<Postcode>81829</Postcode>
+			<Postcode>81925</Postcode>
+			<Postcode>81927</Postcode>
+			<Postcode>81929</Postcode>
+			<Postcode>82008</Postcode>
+			<Postcode>82024</Postcode>
+			<Postcode>82031</Postcode>
+			<Postcode>82041</Postcode>
+			<Postcode>82049</Postcode>
+			<Postcode>82054</Postcode>
+			<Postcode>82057</Postcode>
+			<Postcode>82061</Postcode>
+			<Postcode>82064</Postcode>
+			<Postcode>82065</Postcode>
+			<Postcode>82067</Postcode>
+			<Postcode>82069</Postcode>
+			<Postcode>82110</Postcode>
+			<Postcode>82131</Postcode>
+			<Postcode>82140</Postcode>
+			<Postcode>82152</Postcode>
+			<Postcode>82166</Postcode>
+			<Postcode>82178</Postcode>
+			<Postcode>82194</Postcode>
+			<Postcode>82205</Postcode>
+			<Postcode>82211</Postcode>
+			<Postcode>82216</Postcode>
+			<Postcode>82223</Postcode>
+			<Postcode>82229</Postcode>
+			<Postcode>82234</Postcode>
+			<Postcode>82237</Postcode>
+			<Postcode>82239</Postcode>
+			<Postcode>82256</Postcode>
+			<Postcode>82266</Postcode>
+			<Postcode>82269</Postcode>
+			<Postcode>82272</Postcode>
+			<Postcode>82275</Postcode>
+			<Postcode>82276</Postcode>
+			<Postcode>82278</Postcode>
+			<Postcode>82279</Postcode>
+			<Postcode>82281</Postcode>
+			<Postcode>82284</Postcode>
+			<Postcode>82285</Postcode>
+			<Postcode>82287</Postcode>
+			<Postcode>82288</Postcode>
+			<Postcode>82290</Postcode>
+			<Postcode>82291</Postcode>
+			<Postcode>82293</Postcode>
+			<Postcode>82294</Postcode>
+			<Postcode>82296</Postcode>
+			<Postcode>82299</Postcode>
+			<Postcode>82319</Postcode>
+			<Postcode>82327</Postcode>
+			<Postcode>82335</Postcode>
+			<Postcode>82340</Postcode>
+			<Postcode>82343</Postcode>
+			<Postcode>82346</Postcode>
+			<Postcode>82347</Postcode>
+			<Postcode>82349</Postcode>
+			<Postcode>82362</Postcode>
+			<Postcode>82377</Postcode>
+			<Postcode>82380</Postcode>
+			<Postcode>82383</Postcode>
+			<Postcode>82386</Postcode>
+			<Postcode>82387</Postcode>
+			<Postcode>82389</Postcode>
+			<Postcode>82390</Postcode>
+			<Postcode>82392</Postcode>
+			<Postcode>82393</Postcode>
+			<Postcode>82395</Postcode>
+			<Postcode>82396</Postcode>
+			<Postcode>82398</Postcode>
+			<Postcode>82399</Postcode>
+			<Postcode>82401</Postcode>
+			<Postcode>82402</Postcode>
+			<Postcode>82404</Postcode>
+			<Postcode>82405</Postcode>
+			<Postcode>82407</Postcode>
+			<Postcode>82409</Postcode>
+			<Postcode>82418</Postcode>
+			<Postcode>82431</Postcode>
+			<Postcode>82432</Postcode>
+			<Postcode>82433</Postcode>
+			<Postcode>82435</Postcode>
+			<Postcode>82436</Postcode>
+			<Postcode>82438</Postcode>
+			<Postcode>82439</Postcode>
+			<Postcode>82441</Postcode>
+			<Postcode>82442</Postcode>
+			<Postcode>82444</Postcode>
+			<Postcode>82445</Postcode>
+			<Postcode>82447</Postcode>
+			<Postcode>82449</Postcode>
+			<Postcode>82467</Postcode>
+			<Postcode>82475</Postcode>
+			<Postcode>82481</Postcode>
+			<Postcode>82487</Postcode>
+			<Postcode>82488</Postcode>
+			<Postcode>82490</Postcode>
+			<Postcode>82491</Postcode>
+			<Postcode>82493</Postcode>
+			<Postcode>82494</Postcode>
+			<Postcode>82496</Postcode>
+			<Postcode>82497</Postcode>
+			<Postcode>82499</Postcode>
+			<Postcode>82515</Postcode>
+			<Postcode>82538</Postcode>
+			<Postcode>82541</Postcode>
+			<Postcode>82544</Postcode>
+			<Postcode>82547</Postcode>
+			<Postcode>82549</Postcode>
+			<Postcode>83550</Postcode>
+			<Postcode>83553</Postcode>
+			<Postcode>83565</Postcode>
+			<Postcode>83607</Postcode>
+			<Postcode>83623</Postcode>
+			<Postcode>83624</Postcode>
+			<Postcode>83626</Postcode>
+			<Postcode>83627</Postcode>
+			<Postcode>83629</Postcode>
+			<Postcode>83646</Postcode>
+			<Postcode>83661</Postcode>
+			<Postcode>83666</Postcode>
+			<Postcode>83670</Postcode>
+			<Postcode>83671</Postcode>
+			<Postcode>83673</Postcode>
+			<Postcode>83674</Postcode>
+			<Postcode>83676</Postcode>
+			<Postcode>83677</Postcode>
+			<Postcode>83679</Postcode>
+			<Postcode>83684</Postcode>
+			<Postcode>83700</Postcode>
+			<Postcode>83703</Postcode>
+			<Postcode>83707</Postcode>
+			<Postcode>83708</Postcode>
+			<Postcode>83714</Postcode>
+			<Postcode>83727</Postcode>
+			<Postcode>83730</Postcode>
+			<Postcode>83734</Postcode>
+			<Postcode>83735</Postcode>
+			<Postcode>83737</Postcode>
+			<Postcode>84072</Postcode>
+			<Postcode>84104</Postcode>
+			<Postcode>84405</Postcode>
+			<Postcode>84416</Postcode>
+			<Postcode>84424</Postcode>
+			<Postcode>84427</Postcode>
+			<Postcode>84432</Postcode>
+			<Postcode>84434</Postcode>
+			<Postcode>84435</Postcode>
+			<Postcode>84439</Postcode>
+			<Postcode>85221</Postcode>
+			<Postcode>85229</Postcode>
+			<Postcode>85232</Postcode>
+			<Postcode>85235</Postcode>
+			<Postcode>85238</Postcode>
+			<Postcode>85241</Postcode>
+			<Postcode>85244</Postcode>
+			<Postcode>85247</Postcode>
+			<Postcode>85250</Postcode>
+			<Postcode>85253</Postcode>
+			<Postcode>85254</Postcode>
+			<Postcode>85256</Postcode>
+			<Postcode>85258</Postcode>
+			<Postcode>85259</Postcode>
+			<Postcode>85307</Postcode>
+			<Postcode>85354</Postcode>
+			<Postcode>85356</Postcode>
+			<Postcode>85368</Postcode>
+			<Postcode>85375</Postcode>
+			<Postcode>85376</Postcode>
+			<Postcode>85386</Postcode>
+			<Postcode>85391</Postcode>
+			<Postcode>85395</Postcode>
+			<Postcode>85399</Postcode>
+			<Postcode>85402</Postcode>
+			<Postcode>85405</Postcode>
+			<Postcode>85406</Postcode>
+			<Postcode>85408</Postcode>
+			<Postcode>85410</Postcode>
+			<Postcode>85411</Postcode>
+			<Postcode>85413</Postcode>
+			<Postcode>85414</Postcode>
+			<Postcode>85416</Postcode>
+			<Postcode>85417</Postcode>
+			<Postcode>85419</Postcode>
+			<Postcode>85435</Postcode>
+			<Postcode>85445</Postcode>
+			<Postcode>85447</Postcode>
+			<Postcode>85452</Postcode>
+			<Postcode>85456</Postcode>
+			<Postcode>85457</Postcode>
+			<Postcode>85459</Postcode>
+			<Postcode>85461</Postcode>
+			<Postcode>85462</Postcode>
+			<Postcode>85464</Postcode>
+			<Postcode>85465</Postcode>
+			<Postcode>85467</Postcode>
+			<Postcode>85469</Postcode>
+			<Postcode>85521</Postcode>
+			<Postcode>85540</Postcode>
+			<Postcode>85551</Postcode>
+			<Postcode>85560</Postcode>
+			<Postcode>85567</Postcode>
+			<Postcode>85570</Postcode>
+			<Postcode>85579</Postcode>
+			<Postcode>85586</Postcode>
+			<Postcode>85591</Postcode>
+			<Postcode>85598</Postcode>
+			<Postcode>85599</Postcode>
+			<Postcode>85604</Postcode>
+			<Postcode>85609</Postcode>
+			<Postcode>85614</Postcode>
+			<Postcode>85617</Postcode>
+			<Postcode>85622</Postcode>
+			<Postcode>85625</Postcode>
+			<Postcode>85630</Postcode>
+			<Postcode>85635</Postcode>
+			<Postcode>85640</Postcode>
+			<Postcode>85643</Postcode>
+			<Postcode>85646</Postcode>
+			<Postcode>85649</Postcode>
+			<Postcode>85652</Postcode>
+			<Postcode>85653</Postcode>
+			<Postcode>85656</Postcode>
+			<Postcode>85658</Postcode>
+			<Postcode>85659</Postcode>
+			<Postcode>85661</Postcode>
+			<Postcode>85662</Postcode>
+			<Postcode>85664</Postcode>
+			<Postcode>85665</Postcode>
+			<Postcode>85667</Postcode>
+			<Postcode>85669</Postcode>
+			<Postcode>85716</Postcode>
+			<Postcode>85737</Postcode>
+			<Postcode>85748</Postcode>
+			<Postcode>85757</Postcode>
+			<Postcode>85764</Postcode>
+			<Postcode>85774</Postcode>
+			<Postcode>85777</Postcode>
+			<Postcode>85778</Postcode>
+			<Postcode>86492</Postcode>
+			<Postcode>86567</Postcode>
+			<Postcode>86836</Postcode>
+			<Postcode>86857</Postcode>
+			<Postcode>86859</Postcode>
+			<Postcode>86899</Postcode>
+			<Postcode>86911</Postcode>
+			<Postcode>86916</Postcode>
+			<Postcode>86919</Postcode>
+			<Postcode>86920</Postcode>
+			<Postcode>86922</Postcode>
+			<Postcode>86923</Postcode>
+			<Postcode>86925</Postcode>
+			<Postcode>86926</Postcode>
+			<Postcode>86928</Postcode>
+			<Postcode>86929</Postcode>
+			<Postcode>86931</Postcode>
+			<Postcode>86932</Postcode>
+			<Postcode>86934</Postcode>
+			<Postcode>86935</Postcode>
+			<Postcode>86937</Postcode>
+			<Postcode>86938</Postcode>
+			<Postcode>86940</Postcode>
+			<Postcode>86941</Postcode>
+			<Postcode>86943</Postcode>
+			<Postcode>86944</Postcode>
+			<Postcode>86946</Postcode>
+			<Postcode>86947</Postcode>
+			<Postcode>86949</Postcode>
+			<Postcode>86956</Postcode>
+			<Postcode>86971</Postcode>
+			<Postcode>86972</Postcode>
+			<Postcode>86974</Postcode>
+			<Postcode>86975</Postcode>
+			<Postcode>86977</Postcode>
+			<Postcode>86978</Postcode>
+			<Postcode>86980</Postcode>
+			<Postcode>86981</Postcode>
+			<Postcode>86984</Postcode>
+			<Postcode>86986</Postcode>
+			<Postcode>86987</Postcode>
+			<Postcode>86989</Postcode>
+		</Region>
+		<Region regionID="Augsburg">
+			<RegionName>Augsburg</RegionName>
+			<Postcode>82297</Postcode>
+			<Postcode>86150</Postcode>
+			<Postcode>86152</Postcode>
+			<Postcode>86153</Postcode>
+			<Postcode>86154</Postcode>
+			<Postcode>86156</Postcode>
+			<Postcode>86157</Postcode>
+			<Postcode>86159</Postcode>
+			<Postcode>86161</Postcode>
+			<Postcode>86163</Postcode>
+			<Postcode>86165</Postcode>
+			<Postcode>86167</Postcode>
+			<Postcode>86169</Postcode>
+			<Postcode>86179</Postcode>
+			<Postcode>86199</Postcode>
+			<Postcode>86316</Postcode>
+			<Postcode>86343</Postcode>
+			<Postcode>86356</Postcode>
+			<Postcode>86368</Postcode>
+			<Postcode>86381</Postcode>
+			<Postcode>86391</Postcode>
+			<Postcode>86399</Postcode>
+			<Postcode>86405</Postcode>
+			<Postcode>86415</Postcode>
+			<Postcode>86420</Postcode>
+			<Postcode>86424</Postcode>
+			<Postcode>86438</Postcode>
+			<Postcode>86441</Postcode>
+			<Postcode>86444</Postcode>
+			<Postcode>86447</Postcode>
+			<Postcode>86450</Postcode>
+			<Postcode>86453</Postcode>
+			<Postcode>86456</Postcode>
+			<Postcode>86459</Postcode>
+			<Postcode>86462</Postcode>
+			<Postcode>86465</Postcode>
+			<Postcode>86470</Postcode>
+			<Postcode>86473</Postcode>
+			<Postcode>86476</Postcode>
+			<Postcode>86477</Postcode>
+			<Postcode>86479</Postcode>
+			<Postcode>86480</Postcode>
+			<Postcode>86482</Postcode>
+			<Postcode>86483</Postcode>
+			<Postcode>86485</Postcode>
+			<Postcode>86486</Postcode>
+			<Postcode>86488</Postcode>
+			<Postcode>86489</Postcode>
+			<Postcode>86491</Postcode>
+			<Postcode>86494</Postcode>
+			<Postcode>86495</Postcode>
+			<Postcode>86497</Postcode>
+			<Postcode>86500</Postcode>
+			<Postcode>86502</Postcode>
+			<Postcode>86504</Postcode>
+			<Postcode>86505</Postcode>
+			<Postcode>86507</Postcode>
+			<Postcode>86508</Postcode>
+			<Postcode>86510</Postcode>
+			<Postcode>86511</Postcode>
+			<Postcode>86513</Postcode>
+			<Postcode>86514</Postcode>
+			<Postcode>86517</Postcode>
+			<Postcode>86519</Postcode>
+			<Postcode>86551</Postcode>
+			<Postcode>86554</Postcode>
+			<Postcode>86556</Postcode>
+			<Postcode>86559</Postcode>
+			<Postcode>86568</Postcode>
+			<Postcode>86570</Postcode>
+			<Postcode>86573</Postcode>
+			<Postcode>86574</Postcode>
+			<Postcode>86576</Postcode>
+			<Postcode>86577</Postcode>
+			<Postcode>86609</Postcode>
+			<Postcode>86637</Postcode>
+			<Postcode>86641</Postcode>
+			<Postcode>86647</Postcode>
+			<Postcode>86650</Postcode>
+			<Postcode>86653</Postcode>
+			<Postcode>86655</Postcode>
+			<Postcode>86657</Postcode>
+			<Postcode>86660</Postcode>
+			<Postcode>86663</Postcode>
+			<Postcode>86672</Postcode>
+			<Postcode>86674</Postcode>
+			<Postcode>86675</Postcode>
+			<Postcode>86678</Postcode>
+			<Postcode>86679</Postcode>
+			<Postcode>86681</Postcode>
+			<Postcode>86682</Postcode>
+			<Postcode>86684</Postcode>
+			<Postcode>86685</Postcode>
+			<Postcode>86687</Postcode>
+			<Postcode>86688</Postcode>
+			<Postcode>86690</Postcode>
+			<Postcode>86692</Postcode>
+			<Postcode>86694</Postcode>
+			<Postcode>86695</Postcode>
+			<Postcode>86698</Postcode>
+			<Postcode>86700</Postcode>
+			<Postcode>86703</Postcode>
+			<Postcode>86704</Postcode>
+			<Postcode>86707</Postcode>
+			<Postcode>86709</Postcode>
+			<Postcode>86720</Postcode>
+			<Postcode>86732</Postcode>
+			<Postcode>86733</Postcode>
+			<Postcode>86735</Postcode>
+			<Postcode>86736</Postcode>
+			<Postcode>86738</Postcode>
+			<Postcode>86739</Postcode>
+			<Postcode>86741</Postcode>
+			<Postcode>86742</Postcode>
+			<Postcode>86744</Postcode>
+			<Postcode>86745</Postcode>
+			<Postcode>86747</Postcode>
+			<Postcode>86748</Postcode>
+			<Postcode>86750</Postcode>
+			<Postcode>86751</Postcode>
+			<Postcode>86753</Postcode>
+			<Postcode>86754</Postcode>
+			<Postcode>86756</Postcode>
+			<Postcode>86757</Postcode>
+			<Postcode>86759</Postcode>
+			<Postcode>86830</Postcode>
+			<Postcode>86836</Postcode>
+			<Postcode>86845</Postcode>
+			<Postcode>86850</Postcode>
+			<Postcode>86853</Postcode>
+			<Postcode>86856</Postcode>
+			<Postcode>86863</Postcode>
+			<Postcode>86866</Postcode>
+			<Postcode>86868</Postcode>
+			<Postcode>86872</Postcode>
+			<Postcode>86877</Postcode>
+			<Postcode>89312</Postcode>
+			<Postcode>89331</Postcode>
+			<Postcode>89335</Postcode>
+			<Postcode>89340</Postcode>
+			<Postcode>89343</Postcode>
+			<Postcode>89344</Postcode>
+			<Postcode>89346</Postcode>
+			<Postcode>89347</Postcode>
+			<Postcode>89349</Postcode>
+			<Postcode>89350</Postcode>
+			<Postcode>89352</Postcode>
+			<Postcode>89353</Postcode>
+			<Postcode>89355</Postcode>
+			<Postcode>89356</Postcode>
+			<Postcode>89358</Postcode>
+			<Postcode>89359</Postcode>
+			<Postcode>89361</Postcode>
+			<Postcode>89362</Postcode>
+			<Postcode>89364</Postcode>
+			<Postcode>89365</Postcode>
+			<Postcode>89367</Postcode>
+			<Postcode>89368</Postcode>
+			<Postcode>89407</Postcode>
+			<Postcode>89415</Postcode>
+			<Postcode>89420</Postcode>
+			<Postcode>89423</Postcode>
+			<Postcode>89426</Postcode>
+			<Postcode>89428</Postcode>
+			<Postcode>89429</Postcode>
+			<Postcode>89431</Postcode>
+			<Postcode>89434</Postcode>
+			<Postcode>89435</Postcode>
+			<Postcode>89437</Postcode>
+			<Postcode>89438</Postcode>
+			<Postcode>89440</Postcode>
+			<Postcode>89441</Postcode>
+			<Postcode>89443</Postcode>
+			<Postcode>89446</Postcode>
+			<Postcode>89447</Postcode>
+		</Region>
+		<Region regionID="Franken">
+			<RegionName>Franken</RegionName>
+			<Postcode>90402</Postcode>
+			<Postcode>90403</Postcode>
+			<Postcode>90408</Postcode>
+			<Postcode>90409</Postcode>
+			<Postcode>90411</Postcode>
+			<Postcode>90419</Postcode>
+			<Postcode>90425</Postcode>
+			<Postcode>90427</Postcode>
+			<Postcode>90429</Postcode>
+			<Postcode>90431</Postcode>
+			<Postcode>90439</Postcode>
+			<Postcode>90441</Postcode>
+			<Postcode>90443</Postcode>
+			<Postcode>90449</Postcode>
+			<Postcode>90451</Postcode>
+			<Postcode>90453</Postcode>
+			<Postcode>90455</Postcode>
+			<Postcode>90459</Postcode>
+			<Postcode>90461</Postcode>
+			<Postcode>90469</Postcode>
+			<Postcode>90471</Postcode>
+			<Postcode>90473</Postcode>
+			<Postcode>90475</Postcode>
+			<Postcode>90478</Postcode>
+			<Postcode>90480</Postcode>
+			<Postcode>90482</Postcode>
+			<Postcode>90489</Postcode>
+			<Postcode>90491</Postcode>
+			<Postcode>90513</Postcode>
+			<Postcode>90518</Postcode>
+			<Postcode>90522</Postcode>
+			<Postcode>90530</Postcode>
+			<Postcode>90537</Postcode>
+			<Postcode>90542</Postcode>
+			<Postcode>90547</Postcode>
+			<Postcode>90552</Postcode>
+			<Postcode>90556</Postcode>
+			<Postcode>90559</Postcode>
+			<Postcode>90562</Postcode>
+			<Postcode>90571</Postcode>
+			<Postcode>90574</Postcode>
+			<Postcode>90579</Postcode>
+			<Postcode>90584</Postcode>
+			<Postcode>90587</Postcode>
+			<Postcode>90592</Postcode>
+			<Postcode>90596</Postcode>
+			<Postcode>90599</Postcode>
+			<Postcode>90602</Postcode>
+			<Postcode>90607</Postcode>
+			<Postcode>90610</Postcode>
+			<Postcode>90613</Postcode>
+			<Postcode>90614</Postcode>
+			<Postcode>90616</Postcode>
+			<Postcode>90617</Postcode>
+			<Postcode>90619</Postcode>
+			<Postcode>90762</Postcode>
+			<Postcode>90763</Postcode>
+			<Postcode>90765</Postcode>
+			<Postcode>90766</Postcode>
+			<Postcode>90768</Postcode>
+			<Postcode>91052</Postcode>
+			<Postcode>91054</Postcode>
+			<Postcode>91056</Postcode>
+			<Postcode>91058</Postcode>
+			<Postcode>91074</Postcode>
+			<Postcode>91080</Postcode>
+			<Postcode>91083</Postcode>
+			<Postcode>91085</Postcode>
+			<Postcode>91086</Postcode>
+			<Postcode>91088</Postcode>
+			<Postcode>91091</Postcode>
+			<Postcode>91093</Postcode>
+			<Postcode>91096</Postcode>
+			<Postcode>91097</Postcode>
+			<Postcode>91126</Postcode>
+			<Postcode>91154</Postcode>
+			<Postcode>91166</Postcode>
+			<Postcode>91174</Postcode>
+			<Postcode>91177</Postcode>
+			<Postcode>91180</Postcode>
+			<Postcode>91183</Postcode>
+			<Postcode>91186</Postcode>
+			<Postcode>91187</Postcode>
+			<Postcode>91189</Postcode>
+			<Postcode>91207</Postcode>
+			<Postcode>91217</Postcode>
+			<Postcode>91220</Postcode>
+			<Postcode>91224</Postcode>
+			<Postcode>91227</Postcode>
+			<Postcode>91230</Postcode>
+			<Postcode>91233</Postcode>
+			<Postcode>91235</Postcode>
+			<Postcode>91236</Postcode>
+			<Postcode>91238</Postcode>
+			<Postcode>91239</Postcode>
+			<Postcode>91241</Postcode>
+			<Postcode>91242</Postcode>
+			<Postcode>91244</Postcode>
+			<Postcode>91245</Postcode>
+			<Postcode>91247</Postcode>
+			<Postcode>91284</Postcode>
+			<Postcode>91315</Postcode>
+			<Postcode>91325</Postcode>
+			<Postcode>91334</Postcode>
+			<Postcode>91341</Postcode>
+			<Postcode>91350</Postcode>
+			<Postcode>91413</Postcode>
+			<Postcode>91438</Postcode>
+			<Postcode>91443</Postcode>
+			<Postcode>91448</Postcode>
+			<Postcode>91452</Postcode>
+			<Postcode>91456</Postcode>
+			<Postcode>91459</Postcode>
+			<Postcode>91460</Postcode>
+			<Postcode>91462</Postcode>
+			<Postcode>91463</Postcode>
+			<Postcode>91465</Postcode>
+			<Postcode>91466</Postcode>
+			<Postcode>91468</Postcode>
+			<Postcode>91469</Postcode>
+			<Postcode>91471</Postcode>
+			<Postcode>91472</Postcode>
+			<Postcode>91474</Postcode>
+			<Postcode>91475</Postcode>
+			<Postcode>91477</Postcode>
+			<Postcode>91478</Postcode>
+			<Postcode>91480</Postcode>
+			<Postcode>91481</Postcode>
+			<Postcode>91483</Postcode>
+			<Postcode>91484</Postcode>
+			<Postcode>91486</Postcode>
+			<Postcode>91487</Postcode>
+			<Postcode>91489</Postcode>
+			<Postcode>91522</Postcode>
+			<Postcode>91541</Postcode>
+			<Postcode>91550</Postcode>
+			<Postcode>91555</Postcode>
+			<Postcode>91560</Postcode>
+			<Postcode>91564</Postcode>
+			<Postcode>91567</Postcode>
+			<Postcode>91572</Postcode>
+			<Postcode>91575</Postcode>
+			<Postcode>91578</Postcode>
+			<Postcode>91580</Postcode>
+			<Postcode>91583</Postcode>
+			<Postcode>91586</Postcode>
+			<Postcode>91587</Postcode>
+			<Postcode>91589</Postcode>
+			<Postcode>91590</Postcode>
+			<Postcode>91592</Postcode>
+			<Postcode>91593</Postcode>
+			<Postcode>91595</Postcode>
+			<Postcode>91596</Postcode>
+			<Postcode>91598</Postcode>
+			<Postcode>91599</Postcode>
+			<Postcode>91601</Postcode>
+			<Postcode>91602</Postcode>
+			<Postcode>91604</Postcode>
+			<Postcode>91605</Postcode>
+			<Postcode>91607</Postcode>
+			<Postcode>91608</Postcode>
+			<Postcode>91610</Postcode>
+			<Postcode>91611</Postcode>
+			<Postcode>91613</Postcode>
+			<Postcode>91614</Postcode>
+			<Postcode>91616</Postcode>
+			<Postcode>91617</Postcode>
+			<Postcode>91619</Postcode>
+			<Postcode>91620</Postcode>
+			<Postcode>91622</Postcode>
+			<Postcode>91623</Postcode>
+			<Postcode>91625</Postcode>
+			<Postcode>91626</Postcode>
+			<Postcode>91628</Postcode>
+			<Postcode>91629</Postcode>
+			<Postcode>91631</Postcode>
+			<Postcode>91632</Postcode>
+			<Postcode>91634</Postcode>
+			<Postcode>91635</Postcode>
+			<Postcode>91637</Postcode>
+			<Postcode>91639</Postcode>
+			<Postcode>91710</Postcode>
+			<Postcode>91717</Postcode>
+			<Postcode>91719</Postcode>
+			<Postcode>91720</Postcode>
+			<Postcode>91722</Postcode>
+			<Postcode>91723</Postcode>
+			<Postcode>91725</Postcode>
+			<Postcode>91726</Postcode>
+			<Postcode>91728</Postcode>
+			<Postcode>91729</Postcode>
+			<Postcode>91731</Postcode>
+			<Postcode>91732</Postcode>
+			<Postcode>91734</Postcode>
+			<Postcode>91735</Postcode>
+			<Postcode>91737</Postcode>
+			<Postcode>91738</Postcode>
+			<Postcode>91740</Postcode>
+			<Postcode>91741</Postcode>
+			<Postcode>91743</Postcode>
+			<Postcode>91744</Postcode>
+			<Postcode>91746</Postcode>
+			<Postcode>91747</Postcode>
+			<Postcode>91749</Postcode>
+			<Postcode>91785</Postcode>
+			<Postcode>91788</Postcode>
+			<Postcode>91790</Postcode>
+			<Postcode>91792</Postcode>
+			<Postcode>91793</Postcode>
+			<Postcode>91796</Postcode>
+			<Postcode>91798</Postcode>
+			<Postcode>91799</Postcode>
+			<Postcode>91801</Postcode>
+			<Postcode>91802</Postcode>
+			<Postcode>91805</Postcode>
+			<Postcode>91807</Postcode>
+			<Postcode>92283</Postcode>
+			<Postcode>92318</Postcode>
+			<Postcode>92331</Postcode>
+			<Postcode>92334</Postcode>
+			<Postcode>92342</Postcode>
+			<Postcode>92345</Postcode>
+			<Postcode>92348</Postcode>
+			<Postcode>92353</Postcode>
+			<Postcode>92355</Postcode>
+			<Postcode>92358</Postcode>
+			<Postcode>92360</Postcode>
+			<Postcode>92361</Postcode>
+			<Postcode>92363</Postcode>
+			<Postcode>92364</Postcode>
+			<Postcode>92366</Postcode>
+			<Postcode>92367</Postcode>
+			<Postcode>92369</Postcode>
+			<Postcode>96152</Postcode>
+			<Postcode>96172</Postcode>
+			<Postcode>96193</Postcode>
+			<Postcode>97215</Postcode>
+			<Postcode>97258</Postcode>
+		</Region>
+	</RegionList>
+	<LCNTableList>
+		<LCNTable>
+			<LCN channelNumber="1" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+			<LCN channelNumber="2" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+			<LCN channelNumber="3" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+			<LCN channelNumber="4" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+			<LCN channelNumber="5" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+			<LCN channelNumber="6" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+			<LCN channelNumber="7" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+			<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+			<LCN channelNumber="9" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+			<LCN channelNumber="10" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+			<LCN channelNumber="11" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+			<LCN channelNumber="12" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+			<LCN channelNumber="13" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+			<LCN channelNumber="14" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+			<LCN channelNumber="99" serviceRef="tag:dvb.org,2020:sid16"/>
+
+		</LCNTable>
+		<LCNTable>
+			<TargetRegion>Augsburg</TargetRegion>
+			<LCN channelNumber="1" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+			<LCN channelNumber="2" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+			<LCN channelNumber="3" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+			<LCN channelNumber="4" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+			<LCN channelNumber="5" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+			<LCN channelNumber="6" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+			<LCN channelNumber="7" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+			<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+			<LCN channelNumber="9" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+			<LCN channelNumber="10" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+			<LCN channelNumber="11" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+			<LCN channelNumber="12" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+			<LCN channelNumber="13" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+			<LCN channelNumber="14" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+		</LCNTable>
+		<LCNTable>
+			<TargetRegion>München</TargetRegion>
+			<LCN channelNumber="1" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+			<LCN channelNumber="14" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+			<LCN channelNumber="3" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+			<LCN channelNumber="4" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+			<LCN channelNumber="5" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+			<LCN channelNumber="6" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+			<LCN channelNumber="7" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+			<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+			<LCN channelNumber="9" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+			<LCN channelNumber="2" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+			<LCN channelNumber="10" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+			<LCN channelNumber="11" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+			<LCN channelNumber="12" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+			<LCN channelNumber="13" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+		</LCNTable>
+		<LCNTable>
+			<TargetRegion>Franken</TargetRegion>
+			<LCN channelNumber="1" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52140"/>
+			<LCN channelNumber="2" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52156"/>
+			<LCN channelNumber="3" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52139"/>
+			<LCN channelNumber="4" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52161"/>
+			<LCN channelNumber="5" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52142"/>
+			<LCN channelNumber="6" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52135"/>
+			<LCN channelNumber="7" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52158"/>
+			<LCN channelNumber="8" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52159"/>
+			<LCN channelNumber="9" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52138"/>
+			<LCN channelNumber="10" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52149"/>
+			<LCN channelNumber="11" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52160"/>
+			<LCN channelNumber="12" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52153"/>
+			<LCN channelNumber="13" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52141"/>
+			<LCN channelNumber="14" serviceRef="tag:dvb-i.bmt-technik.de,2022:4360.1073.52157"/>
+		</LCNTable>
+	</LCNTableList>
+	  <Service version="1">
+    <UniqueIdentifier>tag:dvb.org,2020:sid16</UniqueIdentifier>
+    <ServiceInstance priority="1">
+      <SourceType>urn:dvb:metadata:source:dvb-dash</SourceType>
+      <DASHDeliveryParameters>
+        <UriBasedLocation contentType="application/dash+xml">
+          <URI>https://dvb.ebu.io/1.mpd</URI>
+        </UriBasedLocation>
+      </DASHDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName>DVB EBU DASH</ServiceName>
+    <ProviderName>DVB</ProviderName>
+    <ContentGuideServiceRef>cgsid_16</ContentGuideServiceRef>
+  </Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52161</UniqueIdentifier>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52006"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52161"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/a.tv.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://atv-hbb.iptv-playoutcenter.de/atv-hbb/augsburgtv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>a.tv HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/atv__.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52142</UniqueIdentifier>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52016"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52142"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/allgaeu.tv.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://allgaeu-hbb.iptv-playoutcenter.de/allgaeu-hbb/tvallgaeu.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>allgäu.tv HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/allgaeutv.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52140</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/franken-fernsehen.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://franken-hbb.iptv-playoutcenter.de/franken-hbb/frankentv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52007"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52140"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Franken Fernsehen HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/FrankenF.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52135</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/muenchen.tv.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://muc-hbb.iptv-playoutcenter.de/muc-hbb/muenchentv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52003"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52135"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBSDeliveryParameters>
+				<DVBTriplet origNetId="1" tsId="1023" serviceId="5801"/>
+			</DVBSDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>münchen.tv HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/muenchentv.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52158</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<DisplayName>NdbTV DEG-SR</DisplayName>
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-deg-sr.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://nbd-hbb.iptv-playoutcenter.de/nbd-hbb/donautv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DisplayName>NdbTV DEG-SR</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52040"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DisplayName>NdbTV DEG-SR</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52158"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Niederbayern TV HD Deggendorf-Straubing</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dvb-i.bmt-technik.de/logos/Sender_niederbayern-TV-Deggendorf-Straubing-1.jpg</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52159</UniqueIdentifier>
+		<ServiceInstance priority="1">
+			<DisplayName>NdbTV LA</DisplayName>
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-la.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://nbl-hbb.iptv-playoutcenter.de/nbl-hbb/isar-tv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DisplayName>NdbTV LA</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52012"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DisplayName>NdbTV LA</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52159"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Niederbayern TV HD Landshut</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dvb-i.bmt-technik.de/logos/Sender_niederbayern-TV-Landshut.jpg</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52138</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<DisplayName>NdbTV PA</DisplayName>
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/ndbtv-pa.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://nbp-hbb.iptv-playoutcenter.de/nbp-hbb/teleregionalpassau1.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DisplayName>NdbTV PA</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52017"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DisplayName>NdbTV PA</DisplayName>
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52138"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Niederbayern TV HD Passau</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dvb-i.bmt-technik.de/logos/Sender_niederbayern-TV-Passau.jpg</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52149</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/oberpfalz-tv.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://otv-hbb.iptv-playoutcenter.de/otv-hbb/oberpfalztv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52005"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52149"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Oberpfalz TV HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/Sender_Oberpfalz_TV.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52160</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/regio-tv-schwaben.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://regio-hbb.iptv-playoutcenter.de/regio-hbb/regiotv.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52039"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52160"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Regio TV Schwaben HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/RegioTVSch.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52153</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/rfo.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://rfo-hbb.iptv-playoutcenter.de/rfo-hbb/rfo.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52010"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52153"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>Regional Fernsehen Oberbayern HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/rfo.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52156</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv-mainfranken.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://tvmain-hbb.iptv-playoutcenter.de/tvmain-hbb/tvtouringw.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52008"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52156"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>TV Mainfranken HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/tvm_wue.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52139</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv-oberfranken.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://tvo-hbb.iptv-playoutcenter.de/tvo-hbb/tvoberfranken.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52015"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52139"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>TV Oberfranken HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/tvo.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52141</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tv.ingolstadt.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://tvin-hbb.iptv-playoutcenter.de/tvin-hbb/tvingolstadt.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52013"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52141"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBSDeliveryParameters>
+				<DVBTriplet origNetId="1" tsId="1023" serviceId="5804"/>
+			</DVBSDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>tv.ingolstadt HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/jpeg">https://dvb-i.bmt-technik.de/logos/Sender_tv-ingolstadt.jpg</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+	<Service version="1">
+		<UniqueIdentifier>tag:dvb-i.bmt-technik.de,2022:4360.1073.52157</UniqueIdentifier>
+		<ServiceInstance priority="2">
+			<RelatedMaterial>
+				<!--related application-->
+				<HowRelated href="urn:dvb:metadata:cs:LinkedApplicationCS:2019:1.1"/>
+				<MediaLocator>
+					<tva:MediaUri contentType="application/vnd.dvb.ait+xml">https://dvb-i.bmt-technik.de/ait/tva-ostbayern.aitx</tva:MediaUri>
+				</MediaLocator>
+			</RelatedMaterial>
+			<DASHDeliveryParameters>
+				<UriBasedLocation contentType="application/dash+xml">
+					<URI>http://tva-hbb.iptv-playoutcenter.de/tva-hbb/tvaktuellr.stream_all/manifest.mpd</URI>
+				</UriBasedLocation>
+			</DASHDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="3">
+			<DVBCDeliveryParameters>
+				<DVBTriplet origNetId="61441" tsId="10000" serviceId="52014"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceInstance priority="1">
+			<DVBCDeliveryParameters>
+				<DVBTriplet tsId="1073" serviceId="52157"/>
+				<TargetCountry>DEU</TargetCountry>
+				<NetworkID>61449</NetworkID>
+			</DVBCDeliveryParameters>
+		</ServiceInstance>
+		<ServiceName>TVA Ostbayern HD</ServiceName>
+		<ProviderName>bmt</ProviderName>
+		<RelatedMaterial>
+			<!--service logo-->
+			<HowRelated href="urn:dvb:metadata:cs:HowRelatedCS:2020:1001.2"/>
+			<MediaLocator>
+				<tva:MediaUri contentType="image/png">https://dvb-i.bmt-technik.de/logos/TVA.png</tva:MediaUri>
+			</MediaLocator>
+		</RelatedMaterial>
+		<ServiceType href="urn:dvb:metadata:cs:ServiceTypeCS:2019:linear"/>
+	</Service>
+</ServiceList>
