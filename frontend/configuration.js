@@ -1,2 +1,2 @@
 // DVB-I Reference installation location -- also backend/configuration.php
-var INSTALL_LOCATION="https://stage.sofiadigital.fi/dvb/dvb-i-reference-application";
+var INSTALL_LOCATION="http://119.8.215.119/DVBI";
