@@ -36,8 +36,8 @@
 			</sld:ElectronicAddress>
 		</sld:Provider>
 		<sld:ServiceListOffering regulatorListFlag="false">
-		<sld:ServiceListName>DVB-I Test Services</sld:ServiceListName>
-		<sld:ServiceListName xml:lang="zh">DVB-I 试验服务</sld:ServiceListName>
+			<sld:ServiceListName>DVB-I Test Services</sld:ServiceListName>
+			<sld:ServiceListName xml:lang="zh">DVB-I 试验服务</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
 				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=tests.xml</dvbisd:URI>
 			</sld:ServiceListURI>
@@ -51,7 +51,7 @@
 			</sld:Address>
 		</sld:Provider>
 		<sld:ServiceListOffering regulatorListFlag="false">
-		<sld:ServiceListName>bmt Service Liste Lokal TV</sld:ServiceListName>
+			<sld:ServiceListName>bmt Service Liste Lokal TV</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
 				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=bmt_plugfest_2020.xml</dvbisd:URI>
 			</sld:ServiceListURI>
@@ -65,10 +65,16 @@
 			</sld:Address>
 		</sld:Provider>
 		<sld:ServiceListOffering regulatorListFlag="false">
-		<sld:ServiceListName>Serviceliste Deutschland</sld:ServiceListName>
+			<sld:ServiceListName>Serviceliste Deutschland</sld:ServiceListName>
 			<sld:ServiceListURI contentType="application/xml">
 				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=german_trial.xml</dvbisd:URI>
 				<!-- <dvbisd:URI>https://dvb-i.net/staging/services.php/de</dvbisd:URI> -->
+			</sld:ServiceListURI>
+		</sld:ServiceListOffering>
+		<sld:ServiceListOffering regulatorListFlag="false">
+			<sld:ServiceListName>Serviceliste Deutschland (actual)</sld:ServiceListName>
+			<sld:ServiceListURI contentType="application/xml">
+				<dvbisd:URI>https://dvb-i.net/staging/services.php/de</dvbisd:URI>
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
 	</sld:ProviderOffering>
