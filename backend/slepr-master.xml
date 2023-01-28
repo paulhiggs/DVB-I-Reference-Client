@@ -57,4 +57,19 @@
 			</sld:ServiceListURI>
 		</sld:ServiceListOffering>
 	</sld:ProviderOffering>
+	<sld:ProviderOffering>
+		<sld:Provider>
+			<sld:Name>German Pilot</sld:Name>
+			<sld:Address>
+				<mpeg7:Name>ARD</mpeg7:Name>
+			</sld:Address>
+		</sld:Provider>
+		<sld:ServiceListOffering regulatorListFlag="false">
+		<sld:ServiceListName>Serviceliste Deutschland</sld:ServiceListName>
+			<sld:ServiceListURI contentType="application/xml">
+				<dvbisd:URI>INSTALL--LOCATION/backend/servicelist.php?list=german_trial.xml</dvbisd:URI>
+				<!-- <dvbisd:URI>https://dvb-i.net/staging/services.php/de</dvbisd:URI> -->
+			</sld:ServiceListURI>
+		</sld:ServiceListOffering>
+	</sld:ProviderOffering>
 </sld:ServiceListEntryPoints>
