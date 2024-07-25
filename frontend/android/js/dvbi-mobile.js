@@ -117,12 +117,18 @@ window.onload = function () {
     if (audio && audio.length > 1) {
       $("#audio").show();
     }
-    //      $("#pause a").text("Pause");
+    $("#pause").show();
+    $("#play").hide();
+  });
+
+  var hlsvideo = document.getElementById("hlsvideo");
+  hlsvideo.addEventListener("play", (event) => {
     $("#pause").show();
     $("#play").hide();
   });
 
   hlsplayer = new Hls();
+
   player = dashjs.MediaPlayer().create();
   player.initialize(video);
   player.setAutoPlay(true);
@@ -805,18 +811,28 @@ function isDRMSystemSupported(drmSystemId) {
 }
 
 function togglePause() {
-  if (player.isPaused()) {
-    player.play();
-    //    $("#pause a").text(i18n.getString("pause_button"));
-    $("#pause").show();
-    $("#play").hide();
-  } else {
-    player.pause();
-    //    $("#pause a").text("Play");
-    //    $("#pause a").text(i18n.getString("play_button"));
-
-    $("#pause").hide();
-    $("#play").show();
+  if ($("#video").is(":visible")) {
+    if (player.isPaused()) {
+      player.play();
+      $("#pause").show();
+      $("#play").hide();
+    } else {
+      player.pause();
+      $("#pause").hide();
+      $("#play").show();
+    }
+  }
+  if ($("#hlsvideo").is(":visible")) {
+    var pl = document.getElementById("hlsvideo");
+    if (pl.paused) {
+      pl.play();
+      $("#pause").show();
+      $("#play").hide();
+    } else {
+      pl.pause();
+      $("#pause").hide();
+      $("#play").show();
+    }
   }
 }
 

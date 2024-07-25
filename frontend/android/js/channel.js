@@ -212,11 +212,9 @@ Channel.prototype.channelSelected = function () {
             console.log("HLS playing ", self.serviceInstance.hlsUrl);
             hlsplayer.loadSource(self.serviceInstance.hlsUrl);
             hlsplayer.attachMedia(hlsvideo);
-            // $("#hlsvideo").play();
           }
         } else {
           $("#hlsvideo").hide();
-          //$("#hlsvideo").pause();
           $("#video").show();
           player.attachSource(self.serviceInstance.dashUrl);
         }
