@@ -2,7 +2,7 @@ var selectedChannel = null;
 var channels = [];
 var epg = null;
 var uiHideTimeout = null;
-var player;
+var player, hlsplayer;
 var streamInfoUpdate = null;
 var minimumAge = 0;
 var programChangeTimer = null;
@@ -122,6 +122,7 @@ window.onload = function () {
     $("#play").hide();
   });
 
+  hlsplayer = new Hls();
   player = dashjs.MediaPlayer().create();
   player.initialize(video);
   player.setAutoPlay(true);

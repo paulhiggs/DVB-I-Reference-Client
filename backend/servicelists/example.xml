@@ -25,6 +25,8 @@
       <LCN channelNumber="647" serviceRef="tag:dvb.org,2020:sid15"/>
       <LCN channelNumber="648" serviceRef="tag:dvb.org,2020:sid18"/>
       <LCN channelNumber="649" serviceRef="tag:dvb-i-referenceapp,2023:Parental-1"/>
+      <LCN channelNumber="21" serviceRef="tag:hls.js,2024:BBB-ODP"/>
+      <LCN channelNumber="22" serviceRef="tag:hls.js,2024:BBB-IBDP"/>
 
     </LCNTable>
   </LCNTableList>
@@ -40,6 +42,33 @@
       <dvbi-types:URI>INSTALL~~LOCATION/backend/more_episodes.php</dvbi-types:URI>
     </MoreEpisodesEndpoint>
   </ContentGuideSource>
+
+  <Service version="1">
+    <UniqueIdentifier>tag:hls.js,2024:BBB-ODP</UniqueIdentifier>
+    <ServiceInstance priority="1">
+     <OtherDeliveryParameters extensionName="vnd.apple.mpegurl" xsi:type="hls:m3u8RefType" xmlns:hls="vnd:apple:mpegurl" xsi:schemaLocation="vnd:apple:mpegurl hls-url-6.0.xsd">
+      <hls:UriBasedLocation contentType="application/vnd.apple.mpegurl">
+        <URI>https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8</URI>
+      </hls:UriBasedLocation>
+     </OtherDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName xml:lang="en">BBB ODP</ServiceName>
+    <ProviderName>HLS.JS</ProviderName>
+    <ContentGuideServiceRef>cgsid_3</ContentGuideServiceRef>
+  </Service>
+
+  <Service version="1">
+    <UniqueIdentifier>tag:hls.js,2024:BBB-IBDP</UniqueIdentifier>
+    <ServiceInstance priority="1">
+     <IdentifierBasedDeliveryParameters contentType="application/vnd.apple.mpegurl">
+      https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+     </IdentifierBasedDeliveryParameters>
+    </ServiceInstance>
+    <ServiceName xml:lang="en">BBB-IBDP</ServiceName>
+    <ProviderName>HLS.JS</ProviderName>
+    <ContentGuideServiceRef>cgsid_3</ContentGuideServiceRef>
+  </Service>
+
   <Service version="1">
     <UniqueIdentifier>tag:dvb.org,2020:sid1</UniqueIdentifier>
     <ServiceInstance priority="1">

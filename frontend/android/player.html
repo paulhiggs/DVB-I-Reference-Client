@@ -23,6 +23,8 @@
     <link rel="manifest" href="./manifest.json" />
 
     <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+
     <script src="../../identifiers.js"></script>
     <script src="../../namespaces.js"></script>
     <script src="../channel-common.js"></script>
@@ -43,6 +45,7 @@
     <div class="video_wrapper overflow-hidden">
       <div class="video text-center">
         <video id="video"></video>
+        <video id="hlsvideo" autoplay></video>
         <div id="subtitles"></div>
       </div>
       <div class="channels player-ui">

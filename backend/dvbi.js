@@ -5,6 +5,7 @@ const sourceTypes = {
   SOURCE_DVB_C: "DVB-C",
   SOURCE_DVB_IPTV: "DVB-IPTV",
   SOURCE_DVB_APPLICATION: "Application",
+  SOURCE_HLS: "HLS",
 };
 
 const polarizationTypes = {

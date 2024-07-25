@@ -680,6 +680,33 @@ function parseServiceList(data, dvbChannels, supportedDrmSystems) {
           sourceTypes.push("DVB-DASH");
           instances.push(instance);
         } catch (e) {}
+      } else if (serviceInstances[j].getElementsByTagNameNS(DVBi_ns, "OtherDeliveryParameters").length > 0) {
+        try {
+          if (
+            serviceInstances[j]
+              .getElementsByTagNameNS(DVBi_ns, "OtherDeliveryParameters")[0]
+              .getAttribute("extensionName") == "vnd.apple.mpegurl"
+          ) {
+            instance.hlsUrl = serviceInstances[j].getElementsByTagName("URI")[0].childNodes[0].nodeValue;
+            sourceTypes.push("HLS");
+            instances.push(instance);
+          }
+        } catch (e) {}
+      } else if (serviceInstances[j].getElementsByTagNameNS(DVBi_ns, "IdentifierBasedDeliveryParameters").length > 0) {
+        try {
+          if (
+            serviceInstances[j]
+              .getElementsByTagNameNS(DVBi_ns, "IdentifierBasedDeliveryParameters")[0]
+              .getAttribute("contentType") == "application/vnd.apple.mpegurl"
+          ) {
+            instance.hlsUrl = serviceInstances[j].getElementsByTagNameNS(
+              DVBi_ns,
+              "IdentifierBasedDeliveryParameters"
+            )[0].childNodes[0].nodeValue;
+            sourceTypes.push("HLS");
+            instances.push(instance);
+          }
+        } catch (e) {}
       } else if (dvbChannels) {
         var triplets = serviceInstances[j].getElementsByTagNameNS(DVBi_ns, "DVBTriplet");
         if (triplets.length > 0) {

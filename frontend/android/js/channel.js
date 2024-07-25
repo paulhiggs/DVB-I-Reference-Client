@@ -138,6 +138,7 @@ Channel.prototype.unselected = function () {
   self.selected = false;
   self.element.classList.remove("active");
   player.attachSource(null);
+  hlsplayer.attachMedia(null);
 };
 
 Channel.prototype.getMediaPresentationApp = function (serviceInstance) {
@@ -203,7 +204,22 @@ Channel.prototype.channelSelected = function () {
     } else if (self.isProgramAllowed()) {
       $("#parentalpin").hide();
       if (self.serviceInstance) {
-        player.attachSource(self.serviceInstance.dashUrl);
+        if (self.serviceInstance.hlsUrl) {
+          $("#video").hide();
+          $("#hlsvideo").show();
+          var hlsvideo = document.getElementById("hlsvideo");
+          if (Hls.isSupported()) {
+            console.log("HLS playing ", self.serviceInstance.hlsUrl);
+            hlsplayer.loadSource(self.serviceInstance.hlsUrl);
+            hlsplayer.attachMedia(hlsvideo);
+            // $("#hlsvideo").play();
+          }
+        } else {
+          $("#hlsvideo").hide();
+          //$("#hlsvideo").pause();
+          $("#video").show();
+          player.attachSource(self.serviceInstance.dashUrl);
+        }
       }
     } else {
       player.attachSource(null);
