@@ -209,7 +209,6 @@ Channel.prototype.channelSelected = function () {
           $("#hlsvideo").show();
           var hlsvideo = document.getElementById("hlsvideo");
           if (Hls.isSupported()) {
-            console.log("HLS playing ", self.serviceInstance.hlsUrl);
             hlsplayer.loadSource(self.serviceInstance.hlsUrl);
             hlsplayer.attachMedia(hlsvideo);
           }
