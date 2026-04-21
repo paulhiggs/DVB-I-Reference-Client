@@ -8,5 +8,7 @@ function NetworkRequest(url, settings) {
   };
 
   settings.url = url;
+
+  // https://api.jquery.com/jQuery.ajax/
   return $.ajax(settings);
 }
